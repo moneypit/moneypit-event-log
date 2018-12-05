@@ -1,0 +1,23 @@
+{
+  "device": "mp-event-log",
+  "location": "moneypitmine",
+  "twilio": {
+    "accountSid": "",
+    "authToken": "",
+    "twilioPhoneNumber": "",
+    "sendToPhoneNumber": [
+      ""
+    ]
+  },
+  "redis": {
+    "host": "localhost",
+    "port": "6379",
+    "key": "mp-event-log"
+  },
+  "elasticsearch": {
+    "hosts": [
+      "https://elastic:xxx.us-east-1.aws.found.io:9243"
+    ],
+    "index": "mp-event-log-test"
+  }
+}
